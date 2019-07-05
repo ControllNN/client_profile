@@ -1,0 +1,112 @@
+body {
+	margin:0;
+	min-width: 768px;
+	background-color: #efefef;
+	font: 16px/1.2 "Times New Roman", serif;
+	}
+.column {
+	width: 60%;
+	padding: 0 60px;
+	max-width: 700px;
+	min-width: 600px;
+	margin: 0 auto;
+	background-color: #fff;
+	}
+h1,
+h2,
+h3 {
+	font-family: Georgia, "Times New Roman", serif;
+	}
+h1 {
+	margin: 20px 0;
+	font-size: 40px;
+	}
+	h1 span {
+		display: block;
+		font-size: 50%;
+		color: #777;
+		}	
+h2 {
+	margin: 30px 0 16px 0;
+	font-size: 30px;
+	border-bottom: 2px solid #efefef;
+	}
+h3 {
+	margin: 16px 0 10px 0;
+	font-size: 18x;
+	font-style: italic;
+	}
+p {
+	margin: 16px 0;
+	}
+dl,
+dt,
+dd {
+	margin: 0;
+	}
+
+	
+
+/* header */
+.header__in {
+	float: left;
+	}
+.header img {
+	float: right;
+	width: 200px;
+	margin-top: 20px;
+	box-shadow: 10px 10px 0 #efefef;
+	}
+	
+/* contacts */
+.contacts {
+	margin-top: 40px;
+	padding: 20px;
+	background: #efefef;
+	}
+	.contacts dt,
+	.contacts dd {
+		display: inline;
+		}
+	.contacts dt {
+		font-weight: bold;
+		}
+		
+		
+/* info */
+.info {
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 40px;
+	}
+.info__col_l {
+	float: left;
+	width: 45%;
+	}
+.info__col_r {
+	float: right;
+	width: 45%;
+	}
+
+/* exp */
+.exp {
+	clear: both;
+	margin-bottom: 10px;
+	}
+.exp__time {
+	float: left;
+	width: 250px;
+	color: #777;
+	}	
+.exp dl {
+	overflow: hidden;
+	}
+.exp dt {
+	font-weight: bold;
+	}
+	
+/* skill */
+.skill {
+	margin: 0 0 20px;
+	list-style-type: circle
+	}
